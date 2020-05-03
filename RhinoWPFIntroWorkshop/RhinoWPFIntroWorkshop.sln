@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhinoCommonIntro", "RhinoWPFIntroWorkshop\RhinoCommonIntro.csproj", "{5E609FD1-19DF-41A1-8261-08A09681E8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfIntro_Animation", "WpfIntro\WpfIntro_Animation.csproj", "{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhinoWpfIntro", "RhinoWpfIntro\RhinoWpfIntro.csproj", "{A12A7098-B951-40A6-8DED-48B23C1FCD94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfIntro_Grid", "WpfIntro_Grid\WpfIntro_Grid.csproj", "{38B3FD02-C187-4754-A2C9-8C309F80ADF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		WPF|Any CPU = WPF|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E609FD1-19DF-41A1-8261-08A09681E8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E609FD1-19DF-41A1-8261-08A09681E8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E609FD1-19DF-41A1-8261-08A09681E8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E609FD1-19DF-41A1-8261-08A09681E8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E609FD1-19DF-41A1-8261-08A09681E8F3}.WPF|Any CPU.ActiveCfg = WPF|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.WPF|Any CPU.ActiveCfg = WPF|Any CPU
+		{072CFAA4-C401-4131-BA8C-31EC3B1FB71D}.WPF|Any CPU.Build.0 = WPF|Any CPU
+		{A12A7098-B951-40A6-8DED-48B23C1FCD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12A7098-B951-40A6-8DED-48B23C1FCD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12A7098-B951-40A6-8DED-48B23C1FCD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12A7098-B951-40A6-8DED-48B23C1FCD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12A7098-B951-40A6-8DED-48B23C1FCD94}.WPF|Any CPU.ActiveCfg = WPF|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.WPF|Any CPU.ActiveCfg = Release|Any CPU
+		{38B3FD02-C187-4754-A2C9-8C309F80ADF1}.WPF|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {059C0414-7F31-4F89-A4A5-A91C3F99EF9D}
+	EndGlobalSection
+EndGlobal

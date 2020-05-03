@@ -1,0 +1,6 @@
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\bin\RhinoWPFIntroWorkshop.dll
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\bin\RhinoWPFIntroWorkshop.pdb
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\obj\Debug\RhinoWPFIntroWorkshop.csprojAssemblyReference.cache
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\obj\Debug\RhinoWPFIntroWorkshop.csproj.CoreCompileInputs.cache
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\obj\Debug\RhinoWPFIntroWorkshop.dll
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\RhinoWPFIntroWorkshop\obj\Debug\RhinoWPFIntroWorkshop.pdb

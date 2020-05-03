@@ -1,0 +1,102 @@
+﻿<Window x:Class="WpfIntro_Grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfIntro_Grid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         Background="{DynamicResource MaterialDesignPaper}"
+         FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Margin ="10" Grid.Column="0" Grid.RowSpan="3">
+
+            <StackPanel>
+                <TextBlock Margin ="10" FontSize ="20" Style="{StaticResource MaterialDesignTextBlock}">はじめてのUIツール</TextBlock>
+                <Button Click="Button_Click_Line" Margin="10">
+                    ラインを書く
+                </Button>
+                <Button Click ="Button_Click_Circle" Margin="10">
+                    円を書く
+                </Button>
+                <Button Click ="Button_Click_Select" Margin="10">
+                    選択したオブジェクトの名前を表示
+                </Button>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Grid>
+                    <Label Grid.Column ="0" Margin="10">
+                        長さ
+                    </Label>
+                    <TextBlock Margin="15,31,314.5,3.5" Text="{Binding ElementName=MySlider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        
+                    </TextBlock>
+                    <Slider Name ="MySlider" Minimum="30" Maximum="100" 
+                     ToolTip="MaterialDesignDiscreteSlider"
+                     Value="50" VerticalAlignment="Center" Margin="58,0,10.5,-0.5" Style="{StaticResource MaterialDesignDiscreteSlider}" />
+                </Grid>
+                <Grid>
+                    <Label Grid.Column ="0" Margin="10">
+                        半径
+                    </Label>
+                    <TextBlock Margin="15,31,314.5,3.5" Text="{Binding ElementName=MySlider2, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+
+                    </TextBlock>
+                    <Slider Name ="MySlider2" Minimum="30" Maximum="100" 
+                     ToolTip="MaterialDesignDiscreteSlider"
+                     Value="50" VerticalAlignment="Center" Margin="58,0,10.5,-0.5" Style="{StaticResource MaterialDesignDiscreteSlider}" />
+                </Grid>
+
+
+            </StackPanel>
+
+
+
+        </Grid>
+        <StackPanel Grid.Row="0" Grid.Column ="1" Margin="10" >
+            <Grid>
+                <Label VerticalAlignment="Center" Grid.Column="0" Content="Name" Margin="0,0,316.5,0"/>
+                <TextBox Name="ObjectName" Grid.Row="1"  Margin="92,10,10.5,10" Text="{Binding Path =ObjectName, Mode=OneWay}"  TextWrapping="WrapWithOverflow"/>
+            </Grid>
+
+        </StackPanel>
+
+        <ListBox x:Name="LogList" Grid.Row="1" Margin="10"  Grid.Column="1"  ItemsSource="{Binding Path=LogList}"/>
+        <ListBox Grid.Row="2" Margin="10" Name ="SelectedObjects" Grid.Column="1" Style="{StaticResource MaterialDesignListBox}" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="{Binding Name}"></TextBlock>
+                        <TextBlock VerticalAlignment="Center" Grid.Column="1" HorizontalAlignment="Center" Text="{Binding ObjectType}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>

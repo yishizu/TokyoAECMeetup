@@ -1,0 +1,15 @@
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro_Animation.csprojAssemblyReference.cache
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\MainWindow.g.cs
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\App.g.cs
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro_MarkupCompile.cache
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro_MarkupCompile.lref
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro.exe
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro.pdb
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\bin\Debug\WpfIntro.exe.config
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\bin\Debug\WpfIntro.exe
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\bin\Debug\WpfIntro.pdb
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\MainWindow.baml
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro.g.resources
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro.Properties.Resources.resources
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro_Animation.csproj.GenerateResource.cache
+C:\Users\ykish\source\repos\RhinoWPFIntroWorkshop\WpfIntro\obj\Debug\WpfIntro_Animation.csproj.CoreCompileInputs.cache
