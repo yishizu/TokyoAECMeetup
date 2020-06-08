@@ -24,7 +24,7 @@ namespace RhinoWpfIntro.Views
         public RhinoWpfIntroPanel(uint documentSerialNumber)
         {
             DataContext = new RhinoWpfIntroViewModel(documentSerialNumber);
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private RhinoWpfIntroViewModel ViewModel => DataContext as RhinoWpfIntroViewModel;

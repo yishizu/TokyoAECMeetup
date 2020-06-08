@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Rhino;
 using Rhino.UI;
 using RhinoWpfIntro.Views;
 using Rhino.Commands;
-using Rhino.Geometry;
-using Rhino.Input;
-using Rhino.Input.Custom;
+
 
 namespace RhinoWpfIntro
 {

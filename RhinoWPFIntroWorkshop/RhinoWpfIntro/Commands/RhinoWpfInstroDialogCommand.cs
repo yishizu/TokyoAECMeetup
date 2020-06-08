@@ -1,5 +1,4 @@
-﻿using System;
-using Rhino;
+﻿using Rhino;
 using Rhino.Commands;
 using RhinoWindows;
 
