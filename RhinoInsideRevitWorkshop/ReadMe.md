@@ -77,8 +77,8 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 <img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-2_MakeWall.PNG">
 
 2-3.Massから壁と床をつくる
-<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls2.PNG">
-<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls.PNG">
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls2.PNG"　height="300">
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls.PNG"　height="300">
 <img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Schedule.PNG">
 
 ## 3.Rhino.Inside.RevitのGH　C＃
