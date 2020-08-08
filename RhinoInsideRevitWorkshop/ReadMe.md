@@ -61,5 +61,19 @@ Grasshopper (カスタム Revit コンポーネントを使用)
 
 Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interface](https://www.rhino3d.com/inside/revit/beta/reference/rir-interface)を参照してください。
 
+## Rhino.Inside.Revitの基礎GH
+
+１．レベルを複数つくる
+
+２．壁をつくる
+
+## Rhino.Inside.RevitのGH　C＃
+
+３．レベルをつくる
+
+４．まとめてｃ＃でつくる
+
+C:\Program Files\Autodesk\Revit 2020
+
 ## 参考
 [Rhino.Inside.Revit Getting Started](https://www.rhino3d.com/inside/revit/beta/getting-started)
