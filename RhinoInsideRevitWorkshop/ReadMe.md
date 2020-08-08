@@ -64,6 +64,7 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 ## １．Rhino.Inside.Revitの基礎
 
 1-1.Revitの要素の読み込み
+
 1-2.RhinoのジオメトリをRevitへ受け渡す
 
 ## 2.Rhino.Inside.Revitの基礎GH
@@ -74,11 +75,12 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 
 ## 3.Rhino.Inside.RevitのGH　C＃
 
-3-1．レベルをつくる
+3-1．まとめてｃ＃でつくる
+C:\Users\ykish\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
+C:\Program Files\Autodesk\Revit 2020\
 
-3-2．まとめてｃ＃でつくる
 
-C:\Program Files\Autodesk\Revit 2020
+
 
 ## 参考
 [Rhino.Inside.Revit Getting Started](https://www.rhino3d.com/inside/revit/beta/getting-started)
