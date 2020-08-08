@@ -79,8 +79,20 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 ## 3.Rhino.Inside.RevitのGH　C＃
 
 3-1．まとめてｃ＃でつくる
-C:\Users\ykish\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
-C:\Program Files\Autodesk\Revit 2020\
+
+まずC#コンポーネントを右クリックしてManage Assenblies...からReferenced　Assembliesを指定する
+
+1. RevitAPIUI.dll
+
+2. RevitAPI.dll
+
+3. RhinoInside.Revit.dll
+
+C:\Users\[UserName]\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
+
+C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll
+
+C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll
 
 
 
