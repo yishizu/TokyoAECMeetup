@@ -42,7 +42,7 @@ Rhino.Inside.Revitは、Rhino WIPとGrasshopperの豊富な幾何学処理アル
 
 Autodesk Revit®を起動します。Rhino.Inside.Revitの読み込みを確認するよう求められます。今後このダイアログをスキップするには、必ず[常にロード]を押してください。
 
-![Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/01_load.png](https://github.com/yishizu/TokyoAECMeetup/RhinoInsideRevitWorkshop/images/01_load.png)
+![01_load.png](https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/01_load.png)
 
 ロードが完了したら、アドインタブの下にある新しいRhinocerosのボタンが見つかります。
 
