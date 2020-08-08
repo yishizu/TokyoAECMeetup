@@ -64,9 +64,9 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 ## １．Rhino.Inside.Revitの基礎
 
 1-1.Revitの要素の読み込み
-
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/1-1_GetGeometryFromRevit.PNG">
 1-2.RhinoのジオメトリをRevitへ受け渡す
-
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/1-1_MeshGeometry.PNG">
 ## 2.Rhino.Inside.Revitの基礎GH
 
 2-1.レベルを複数つくる
