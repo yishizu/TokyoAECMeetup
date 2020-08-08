@@ -5,7 +5,7 @@
 
 ３．C＃でRevitAPIを使う
 
-４．独自プラグインを作ってみる
+４．独自プラグインを作ってみる　（次の回）
 
 ## Workshop対象者
 * Revitを使える
@@ -38,19 +38,20 @@ Rhino.Inside.Revitは、Rhino WIPとGrasshopperの豊富な幾何学処理アル
 
 ## Rhino.Inside.Revitをロードする
 
----
-
 Autodesk Revit®を起動します。Rhino.Inside.Revitの読み込みを確認するよう求められます。今後このダイアログをスキップするには、必ず[常にロード]を押してください。
 
-![Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/01_load.png](https://github.com/yishizu/TokyoAECMeetup/RhinoInsideRevitWorkshop/images/01_load.png)
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/01_load.png" height="250" >
+
 
 ロードが完了したら、アドインタブの下にある新しいRhinocerosのボタンが見つかります。
 
-![Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/03_load.png](Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/03_load.png)
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/03_load.png" >
+
 
 RhinoボタンをクリックしてRhino.Inside.Revitの読み込みを開始します。このアドオンは、Revitのメモリ内にRhino WIPをロードしようとし、ライセンスが取得されていることを確認します。ロード処理が完了すると、Revitに新しいRhinocerosツールバーが表示されます。
 
-![Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/02_load.png](Rhino%20Inside%E3%82%92%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%82%88%E3%81%86%20c94463c8e13841198c093790d2e6e957/02_load.png)
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/02_load.png">
+
 
 新しいツールバーには、多くの新しいボタンが含まれており、以下の機能にアクセスすることができます。
 
@@ -59,3 +60,27 @@ Python IDE (Revit APIにアクセス可能)
 Grasshopper (カスタム Revit コンポーネントを使用)
 
 Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interface](https://www.rhino3d.com/inside/revit/beta/reference/rir-interface)を参照してください。
+
+## １．Rhino.Inside.Revitの基礎
+
+1-1.Revitの要素の読み込み
+
+1-2.RhinoのジオメトリをRevitへ受け渡す
+
+## 2.Rhino.Inside.Revitの基礎GH
+
+2-1.レベルを複数つくる
+
+2-2.壁をつくる
+
+## 3.Rhino.Inside.RevitのGH　C＃
+
+3-1．まとめてｃ＃でつくる
+C:\Users\ykish\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
+C:\Program Files\Autodesk\Revit 2020\
+
+
+
+
+## 参考
+[Rhino.Inside.Revit Getting Started](https://www.rhino3d.com/inside/revit/beta/getting-started)
