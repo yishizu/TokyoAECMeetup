@@ -70,16 +70,34 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 ## 2.Rhino.Inside.Revitの基礎GH
 
 2-1.レベルを複数つくる
-<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-1_MakeLevel.PNG">
+
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-1_MakeLevel.PNG" height="300">
 
 2-2.壁をつくる
 <img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-2_MakeWall.PNG">
 
+2-3.Massから壁と床をつくる
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls2.PNG">
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Walls.PNG">
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_Schedule.PNG">
+
 ## 3.Rhino.Inside.RevitのGH　C＃
 
 3-1．まとめてｃ＃でつくる
-C:\Users\ykish\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
-C:\Program Files\Autodesk\Revit 2020\
+
+まずC#コンポーネントを右クリックしてManage Assenblies...からReferenced　Assembliesを指定する
+
+1. RevitAPIUI.dll
+
+2. RevitAPI.dll
+
+3. RhinoInside.Revit.dll
+
+C:\Users\[UserName]\AppData\Roaming\Autodesk\Revit\Addins\2020\RhinoInside.Revit\RhinoInside.Revit.dll
+
+C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll
+
+C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll
 
 
 
