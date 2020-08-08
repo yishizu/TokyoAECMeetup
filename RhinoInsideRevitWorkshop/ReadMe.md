@@ -60,3 +60,6 @@ Python IDE (Revit APIにアクセス可能)
 Grasshopper (カスタム Revit コンポーネントを使用)
 
 Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interface](https://www.rhino3d.com/inside/revit/beta/reference/rir-interface)を参照してください。
+
+## 参考
+[Rhino.Inside.Revit Getting Started](https://www.rhino3d.com/inside/revit/beta/getting-started)
