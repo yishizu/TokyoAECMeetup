@@ -70,7 +70,8 @@ Rhinocerosタブのボタンの全てのリストは[Rhino.Inside.Revit Interfac
 ## 2.Rhino.Inside.Revitの基礎GH
 
 2-1.レベルを複数つくる
-<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-1_MakeLevel.PNG" height="250">
+
+<img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-1_MakeLevel.PNG" height="300">
 
 2-2.壁をつくる
 <img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/2-2_MakeWall.PNG">
