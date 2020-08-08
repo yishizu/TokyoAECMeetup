@@ -1,13 +1,11 @@
 # Rhino Insideをはじめよう
 ## Workshop対象者
----
 * Revitを使える
 * Rhinoを使える
 * Rhino C# がわかる
 * Grasshopper開発基礎がわかる
 
 ## PC環境
----
 * Windows10
 * Revit2020
 * RhinoWIP
@@ -15,7 +13,6 @@
 * Grasshopper templates for v6
 
 ## インストール
----
 以下のリンクからRhino.Inside.RevitとRhino WIPをダウンロードしてください。
 [Rhino.Inside.Revit](https://www.rhino3d.com/download/rhino.inside-revit/7/wip)
 [Rhino WIP](https://www.rhino3d.com/download/rhino/wip)
