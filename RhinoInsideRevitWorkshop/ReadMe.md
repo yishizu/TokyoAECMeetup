@@ -103,7 +103,51 @@ C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll
 
 <img src="https://github.com/yishizu/TokyoAECMeetup/blob/master/RhinoInsideRevitWorkshop/Images/3-1_ReferenceDlls.PNG">
 
+```
+using RIR = RhinoInside.Revit;
+using DB = Autodesk.Revit.DB;
+using UI = Autodesk.Revit.UI;
 
+```
+
+
+```
+// make the sphere
+_sphere = new Rhino.Geometry.Sphere(Rhino.Geometry.Point3d.Origin, (double) Radius);
+// if requested, ask Rhino.Inside.Revit to run bake method
+if ((bool) Trigger)
+{
+  RIR.Revit.EnqueueAction(CreateGeometry);
+}
+
+// pass the sphere to output
+Sphere = _sphere;
+
+```
+
+```
+private Rhino.Geometry.Sphere _sphere;
+
+  private void CreateGeometry(DB.Document doc)
+  {
+    var brep = _sphere.ToBrep();
+
+    var meshes = Rhino.Geometry.Mesh.CreateFromBrep(
+      brep,
+      Rhino.Geometry.MeshingParameters.Default
+      );
+
+    var revitCategory = new DB.ElementId((int) DB.BuiltInCategory.OST_GenericModel);
+
+    var ds = DB.DirectShape.CreateElement(doc, revitCategory);
+
+    foreach (var mesh in meshes){
+      var geom = RIR.Convert.Geometry.GeometryEncoder.ToMesh(mesh);
+      ds.SetShape(new DB.GeometryObject[] { geom });
+    }
+  }
+
+```
 
 ## 参考
 [Rhino.Inside.Revit Getting Started](https://www.rhino3d.com/inside/revit/beta/getting-started)
