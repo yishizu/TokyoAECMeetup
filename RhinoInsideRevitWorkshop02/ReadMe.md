@@ -12,8 +12,7 @@
 * Revitを使える
 * Rhinoを使える
 
-
-## PC環境
+## Workshop対象者
 * Windows10
 * Revit2020
 * RhinoBeta
