@@ -12,12 +12,12 @@
 * Revitを使える
 * Rhinoを使える
 
-## Workshop対象者
+## PC環境
 * Windows10
 * Revit2020
 * RhinoBeta
 
-##使用プラグイン
+## 使用プラグイン
 * RhinoInsideRevit https://www.rhino3d.com/download/rhino.inside-revit/7/wip
 * Elefront https://www.food4rhino.com/app/elefront
 * HumanUI https://www.food4rhino.com/app/human-ui
